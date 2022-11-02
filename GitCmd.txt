@@ -44,26 +44,6 @@ ssh-keygen -t rsa -b 4096 -C "sansar.creativeworld@gmail.com"
 
 Sansar@LAPTOP-TC2ELG82 MINGW64 /e/Codes/Git/SampleWebsite (master)
 $ ssh-keygen -t rsa -b 4096 -C "sansar.creativeworld@gmail.com"
-Generating public/private rsa key pair.
-Enter file in which to save the key (/c/Users/Sansar/.ssh/id_rsa):
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /c/Users/Sansar/.ssh/id_rsa
-Your public key has been saved in /c/Users/Sansar/.ssh/id_rsa.pub
-The key fingerprint is:
-SHA256:Z00dAk5B2IWQyhHgfDIWsKcmQx1lyKx2saWLkbcA/ws sansar.creativeworld@gmail.cm
-The key's randomart image is:
-+---[RSA 4096]----+
-|  +o=+...*==o .  |
-|. .Ooo. ooo  o . |
-|.o+.%..o  . . .  |
-|.*.O +o    o     |
-|+ O.o   S o .    |
-| =Eo.    o       |
-|   . .           |
-|    .            |
-|                 |
-+----[SHA256]-----+
 
 Sansar@LAPTOP-TC2ELG82 MINGW64 /e/Codes/Git/SampleWebsite (master)
 $ eval "$(ssh-agent -s)"
@@ -76,8 +56,6 @@ $ clip < ~/.ssh/id_ed25519.pub
 
 Sansar@LAPTOP-TC2ELG82 MINGW64 /e/Codes/Git/SampleWebsite (master)
 $ tail ~/.ssh/id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+fvebIo1R643TmRTG5bYP4H/fncV2fPKnvCJZUdqBVgUmEQHRnH0p/CGuxIJZjO8JLlDICsghVkARkF8Nl2ch8mB5WFdBd3MRlH7lCDiWiAX/lAeLp5oinO3efiU33RpM5L0drN6FuYQ2pDgKItUkvBHTpLFZY/UIf2xZHIdfEs0T6gi4a3pLuWeFIrNuZF/+ikcWkNjVhEz9XPyYUD99SydOMQUa/zhktTaMOFc8IG2QR1NxSK9YWaUoWhm2YcqRs0ynkU9laHAtbENKqk4QAlbHhZIz2FKa+0DUffVUOZ73Y0u8GvMzZmJg7Mtox6/hLvBXo84QOhQS5p8pLvA1MLoBWoL14G4CUNi0x5A0N74stuIpk3s3ahhkUqlilIEeEZ9B7G54521Gk+WmM7Kaf2mHudLbtwx+3SHjCXsMrEo7oakAgg+ykD1YECyP3h5k2AmGN+PgBYMBBcPWfeSVN0YmdzydBbCUl76+a/dhmI5uhcQiaJu5Ed/oV0TfGJVSuvmxmSWyMcxRwfSxEFq/SkKT9Reqdnmwd0Y5F/gwvd0IBepEv7SCEscmv6mBSLtBnq9hDhj4aTgabqP8Qa4a4/Cke7Dctp8te8dtnWRICIvkBoOl6295Pxo9FMY7y161ktPHLAtoETg9ZKTgfq4o6jyQPSV3Q8DhzVOBjBxT0Q== sansar.creativeworld@gmail.com
-
 
 Sansar@LAPTOP-TC2ELG82 MINGW64 /e/Codes/Git/SampleWebsite (master)
 $ git push -u origin master
@@ -92,18 +70,9 @@ To github.com:sansar-creative/demo-public.git
 branch 'master' set up to track 'origin/master'.
 
 
-
-
-
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDSGzVuUJ7rRnYgLeaAwoQRe1he0VB/oI8e5p09CQOzW sansar.creativeworld@gmail.com
-
-
 Sansar@LAPTOP-TC2ELG82 MINGW64 /e/Codes/Git/SampleWebsite (master)
 $ ssh-add ~/.ssh/id_rsa
 Identity added: /c/Users/Sansar/.ssh/id_rsa (sansar.creativeworld@gmail.com)
-
-
-
 
 
 ssh-keygen -t ed25519 -C "sansar.creativeworld@gmail.com"
@@ -116,19 +85,6 @@ Enter same passphrase again:
 Your identification has been saved in /c/Users/Sansar/.ssh/id_ed25519
 Your public key has been saved in /c/Users/Sansar/.ssh/id_ed25519.pub
 The key fingerprint is:
-SHA256:xhJIypE9vlnR5OXM0fpbbCaHyznaW/f3sDDwI8zewbM sansar.creativeworld@gmail.com
-The key's randomart image is:
-+--[ED25519 256]--+
-|  .o.  o. o.     |
-| ..+o....= ..    |
-|  o...... +.     |
-|    . .o  .      |
-|     +. S .. o   |
-|    o  o o ++ *  |
-|          +.OXo .|
-|         . +*O +o|
-|          o.Eo. =|
-+----[SHA256]-----+
 
 eval "$(ssh-agent -s)"
 Agent pid 939
@@ -136,8 +92,6 @@ Agent pid 939
 $ ssh-add ~/.ssh/id_ed25519
 Identity added: /c/Users/Sansar/.ssh/id_ed25519 (sansar.creativeworld@gmail.com)
 
-
-
-
+git add GitCmd.txt
 
 
